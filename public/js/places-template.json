@@ -1,0 +1,66 @@
+[
+  {
+    "placeName": "Guanacaste",
+    "description": "Guanacaste is a region of Costa Rica known for its stunning natural landscapes, dreamy beaches and rich culture. Visitors can enjoy the beauty of the Pacific coast, with its crystal clear waters, white sands and a wide variety of water activities, such as surfing, paddleboarding, kayaking, snorkeling and sport fishing. The region also has a large number of national parks and nature reserves, where visitors can observe a rich biodiversity of flora and fauna. Rincon de la Vieja, Santa Rosa and Palo Verde are some of the most popular national parks in the area, with impressive volcanoes, tropical forests and mangroves, and a wide variety of animals, including monkeys, jaguars, crocodiles and exotic birds. Guanacaste's culture is also an attraction for tourists, with a rich pre-Columbian and colonial heritage, reflected in the architecture, traditions and local cuisine. Guanacaste also offers a wide variety of lodging options, from luxurious resorts to cozy bed and breakfasts, providing comfort and hospitality to visitors. In addition, the region is a popular destination for ecotourism and adventure, with options for canopy, horseback riding, hiking and whitewater rafting.",
+    "heroImage": [
+      "public/assets/img/banner-guanacaste.jpg"
+    ],
+    "id": "1"
+  },
+  {
+    "placeName": "Limón",
+    "description": "Limon is a province on the Caribbean coast of Costa Rica known for its pristine beaches, tropical forests and Afro-Caribbean culture. Visitors can enjoy breathtaking natural landscapes, dreamy beaches and a wide variety of water activities, such as snorkeling, scuba diving, sport fishing and kayaking. The region has several national parks and nature reserves, such as Tortuguero National Park, where visitors can observe a rich biodiversity of flora and fauna, including monkeys, jaguars, crocodiles and several species of birds. In addition, the region is famous for its sea turtles, which nest on the area's beaches, and visitors can take night tours to see these creatures in their natural habitat. Limón's Afro-Caribbean culture is a draw for tourists, with a rich heritage that is reflected in the local music, dance and cuisine. Visitors can enjoy traditional festivals, such as the Limon Carnival, and try typical dishes such as rice and beans, chicken in creole sauce and patacones. Limon also offers a wide variety of lodging options, from luxury hotels to more modest cabins and guesthouses, which provide comfort and hospitality to visitors. In addition, the region is a popular destination for ecotourism and adventure, with options for canopy, hiking, rafting and boat tours on the area's rivers and canals.",
+    "heroImage": [
+      "public/assets/img/banner-limon.jpg"
+    ],
+    "id": "2"
+  },
+  {
+    "placeName": "Puntarenas",
+    "description": "Puntarenas is a coastal province on the Pacific coast of Costa Rica, known for its stunning natural scenery, dreamy beaches and rich culture. Visitors can enjoy the beauty of the Pacific coast, with its crystal clear waters, white sands and a wide variety of water activities, such as surfing, paddleboarding, kayaking, snorkeling and sport fishing. The region also has several national parks and nature reserves, where visitors can observe a rich biodiversity of flora and fauna. Manuel Antonio, Carara and Corcovado are some of the most popular national parks in the area, with impressive rainforests, waterfalls and a wide variety of animals, including monkeys, sloths, jaguars and exotic birds. The culture of Puntarenas is also an attraction for tourists, with a rich pre-Columbian and colonial heritage, which is reflected in the architecture, traditions and local cuisine. Visitors can enjoy traditional festivals, such as Easter Week and the Day of the Dead, and try typical dishes such as fish ceviche, rice with seafood and seafood soup. Puntarenas also offers a wide variety of lodging options, from luxurious resorts to cozy bed and breakfasts, providing comfort and hospitality to visitors. In addition, the region is a popular destination for ecotourism and adventure, with options for canopy, hiking, horseback riding and whitewater rafting.",
+    "heroImage": [
+      "public/assets/img/banner-puntarenas.jpg"
+    ],
+    "id": "3"
+  },
+  {
+    "placeName": "Tamarindo",
+    "description": "Tamarindo is a tourist town located on the Pacific coast of Costa Rica, in the province of Guanacaste. It is famous for its white sand beaches and its relaxed and festive atmosphere. Tamarindo beach is the main attraction of the city, with a vibrant and lively atmosphere. Visitors can enjoy water activities such as surfing, paddleboarding, kayaking, snorkeling and scuba diving. In addition, there is a wide variety of restaurants, bars and stores in the area. Tamarindo also has an abundance of wildlife, including monkeys, iguanas, tropical birds and sea turtles. Tourists can visit Las Baulas National Marine Park, where turtles come to lay their eggs during nesting season. Other popular activities include mangrove exploration by kayak, horseback riding on the beach and excursions to the nearby Tamarindo Nature Reserve. For those interested in sustainable tourism, there are several community initiatives that work to protect biodiversity and support",
+    "heroImage": [
+      "public/assets/img/banner-tamarindo.jpg"
+    ],
+    "id": "4"
+  },
+  {
+    "placeName": "Jaco",
+    "description": "Jaco is a tourist town located on the Pacific coast of Costa Rica, in the province of Puntarenas. It is known for its black sand beaches, vibrant nightlife and wide variety of tourist activities. Jaco Beach is one of the most popular beaches in Costa Rica, ideal for surfing, boating, fishing and other water sports. In addition, beach umbrellas, beach chairs and surfboards are available for rent on the beach. In the city, there are a lot of restaurants, bars, discos and casinos, making it a very lively city at night. Jaco is also known for its nature reserves, such as the Carara National Park and the Jaco Biological Reserve. In these areas, visitors can explore the rainforest, observe wildlife and engage in activities such as hiking, canopy and river boat rides. Other popular activities include whale and dolphin watching, scuba diving and snorkeling at the nearby Tortugas Islands, sport fishing, and bike rides in the nearby hills. Jaco is also an excellent place to practice yoga and to enjoy the spas and wellness centers located in town.",
+    "heroImage": [
+      "public/assets/img/banner-jaco.jpg"
+    ],
+    "id": "5"
+  },
+  {
+    "placeName": "Uvita",
+    "description": "Uvita is a small coastal town located on the Pacific coast of Costa Rica, in the province of Puntarenas. It is known for its stunning natural beauty, white sand beaches and wildlife watching opportunities. Uvita beach is one of the most beautiful in the region, with a strip of white sand and crystal clear waters. It is ideal for swimming, snorkeling, diving and sunbathing. In addition, near the beach is the Ballena Marine National Park, a refuge for humpback whales during their migration and for other marine species such as dolphins, turtles and aquatic birds. Uvita is also known for Corcovado National Park, one of the most important protected areas in Costa Rica, which has an impressive biodiversity of fauna and flora. Visitors can hike along nature trails, go bird watching and spot animals such as monkeys, sloths and jaguars. Other popular activities include rafting and kayaking in the nearby rivers, exploring waterfalls and bird watching in the nearby forests. In addition, Uvita is an excellent place to practice yoga and to enjoy the spas and wellness centers in the area.",
+    "heroImage": [
+      "public/assets/img/banner-uvita.jpg"
+    ],
+    "id": "6"
+  },
+  {
+    "placeName": "Conchal",
+    "description": "Conchal is a small beach located on the Pacific coast of Costa Rica, in the province of Guanacaste. It is known for its beautiful white sand formed by crushed shells and its crystal clear turquoise waters. Conchal beach is an ideal place for swimming, snorkeling and diving, as it has a great variety of marine life, such as tropical fish and sea turtles. In addition, on the beach you can rent umbrellas and beach chairs, as well as hire tour services for activities such as sport fishing, whale watching, kayaking and catamaran rides. Conchal is close to Las Baulas National Marine Park, where you can see sea turtles nesting during the nesting season. It is also a good place for hiking and exploring nature, with the possibility of encountering monkeys, iguanas and a variety of tropical birds. Other popular activities in the area include golfing at the nearby Reserva Conchal golf course, exploring the nearby beaches of Tamarindo and Flamingo, and visiting the nearby towns of Brasilito and Potrero, which offer an authentic Costa Rican experience.",
+    "heroImage": [
+      "public/assets/img/banner-conchal.jpg"
+    ],
+    "id": "7"
+  },
+  {
+    "placeName": "Cahuita",
+    "description": "Cahuita is a small coastal town located on the Caribbean coast of Costa Rica, in the province of Limón. It is known for its beautiful white sand beach, its vibrant Afro-Caribbean culture and its Cahuita National Park, an impressive natural reserve that is home to a great variety of flora and fauna. Cahuita beach is ideal for swimming, snorkeling and scuba diving, as it has a coral reef in its waters that offers a great spectacle of marine life. In addition, on the beach you can rent umbrellas and beach chairs, as well as hire tour services for activities such as boat rides and dolphin and sea turtle watching. Cahuita National Park is a spectacular place to hike through nature trails and explore the rainforest, with the possibility of seeing monkeys, sloths, toucans and a variety of birds and reptiles. The park also has beautiful beaches and picnic areas. Cahuita is a place known for its Afro-Caribbean culture, which is reflected in its music, gastronomy and festivities. Visitors can enjoy live music in local bars and restaurants, and taste typical dishes such as coconut rice, chicken curry and cassava bread. Other popular activities in the area include rafting on nearby rivers, visiting the nearby town of Puerto Viejo and its beaches, and observing marine life in the Hitoy Cerere Biological Reserve.",
+    "heroImage": [
+      "public/assets/img/banner-cahuita.jpeg"
+    ],
+    "id": "8"
+  }
+]

@@ -1,0 +1,64 @@
+.gallery {
+
+  $borderCard: 7px;
+  display: grid;
+  padding-bottom: 90px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  place-content: center;
+
+  li {    
+    position: relative;
+    height: 305px;
+    overflow:hidden;
+
+    &:hover{
+      transform:scale(1.1);
+      transition: all 0.5s ease-out;
+    }
+
+    :focus {
+      transform:scale(1.1);
+      transition: all 0.5s ease-out;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    
+  }
+
+  &__list {
+    border-radius: $borderCard;
+
+  }
+
+  &__textCard--color {
+    background-color: rgba(0, 0, 0, 0.498);
+    padding: 9px 0px;
+    color: $white;
+    border-radius: $borderCard;
+  }
+
+  &__countryText{
+    font-weight: lighter;
+    margin-left: 14px;
+  }
+
+  &__titleCard{
+    margin-left: 14px;
+    font-weight: bolder;
+  }
+
+
+  &__arrow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 15%;
+
+  }
+
+  a {
+    display: block;
+    height: 100%;
+  }
+}

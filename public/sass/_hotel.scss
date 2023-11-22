@@ -1,0 +1,133 @@
+.tabs-container {
+
+  &h2 {
+    font-weight: 300px;
+  }
+
+  & .tab-container {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    max-width: fit-content;
+    margin-bottom: 30px;
+
+    & .tab {
+      padding: 1rem 3rem 1rem 1rem;
+      margin: 0.2rem;
+      border: solid black 2px;
+      border-radius: 11px;
+    }
+
+    & .tab.active {
+      background-color: rgb(26, 25, 25);
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+  .data-container {
+   height: 100%;
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  .data-container .data {
+    display: none;
+  }
+
+  .data-container .data.active {
+    display: block;
+  }
+}
+
+.rooms {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 5px;
+
+  &__card {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 2px 5px rgba(0, 0, 0, 0.30);
+    padding-bottom: 98px;
+    border-radius: 20px;
+    max-width: 425px;
+  }
+  &__text  {
+    & img {
+      height: 250px;
+      border-radius: 20px 20px 0px 0px;
+    }
+   }
+   &--space{
+    padding-left: 5px;
+    margin-bottom: 20px;
+   }
+}
+
+.price {
+  text-decoration: line-through 2px;
+
+  &-font {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 5px;
+  }
+}
+
+.total {
+  color: limegreen;
+  margin-left: 15px;
+}
+
+.hotels {
+  $borders: 12px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  &__card {
+
+    * img {
+      border-radius: $borders;
+      height: 98%;
+    }
+  }
+
+  &__link {
+    position: relative;
+  }
+
+  &__title {
+    background-color: $black-dissipated;
+    border-radius: $borders;
+    bottom: 4px;
+    box-sizing: border-box;
+    color: $white;
+    left: 0;
+    margin: 0;
+    padding: 1.1356rem 0 1.1356rem 1.1356rem;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.roomsUl{
+padding-left: 20px; 
+color:rgb(128, 127, 127);
+list-style:disc;
+font-size: $gray;
+}
+
+/*contact form*/
+
+.contact-img {
+  background-image: url('../design-system/img/pool.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.list {
+  list-style: disc;
+  padding: 0px 0px 0px 20px;
+}

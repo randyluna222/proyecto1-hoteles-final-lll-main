@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable="no">
+  <title>Hotels</title>
+  <link rel="stylesheet" href="./public/css/styles.css">
+  <link rel="website icon" type="png" href="/public/assets/icons/logo-black.svg">
+</head>
+
+<body>
+  <!-- modal sign in  -->
+  <div class="modal-container" id="modal_container">
+    <form class="formulario modal" id="myForm">
+      <div>
+        <img class="formulario_img" src="./public/assets/icons/logo.svg" alt="">
+        <img id="close" src="./public/design-system/img/vector.svg" alt="">
+      </div>
+      <h2>Sign In</h2>
+      <ul>
+        <li>
+          <label class="formulario__label" for="user">User</label>
+          <input class="formulario__input" type="text" id="user" name="user" required>
+        </li>
+        <li>
+          <label class="formulario__label" for="password">Password</label>
+          <input class="formulario__input" type="password" id="password" name="user_password" required>
+        </li>
+      </ul>
+
+      <input class="enviar" type="submit" value="Submit">
+      <input type="hidden" name="_next" id="prueba">
+      <p class="parrafo1"><strong>Forgot Password?</strong></p>
+      <p class="parrafo1">Don’t have an account? <a href="#"><strong>Sign up</strong></a></p>
+    </form>
+
+  </div>
+
+  <div class="container">
+
+    <!-- gallery -->
+    <ul id="gallery-container" class="gallery"></ul>
+
+  </div>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer__list container footer--flex">
+      <div>
+        <ul class="footer__img">
+          <li><a href="#"><img src="./public/icons-footer/logo_twitter_1.svg" alt="Logo de twitter"></a></li>
+          <li><a href="#"><img src="./public/icons-footer/logo_facebook_1.svg" alt="Logo facebook"></a></li>
+          <li><a href="#"><img src="./public/icons-footer/logo_instagram_1.svg" alt="Logo de instagram"></a></li>
+        </ul>
+      </div>
+      <div class="setting">
+        <div class="footer__anchors">
+          <h2>Destination</h2>
+          <ul>
+            <li><a href="#">Puntarenas</a></li>
+            <li><a href="#">Guanacaste</a></li>
+            <li><a href="#">Limón</a></li>
+          </ul>
+        </div>
+        <div class="footer__anchors">
+          <h2>Contact Us</h2>
+          <ul>
+            <li><a href="#">24/7 Chat Support</a></li>
+            <li><a href="#">contact@support.com</a></li>
+            <li><a href="#">+506 2222-2222</a></li>
+          </ul>
+        </div>
+        <div class="footer__anchors">
+          <h2>Legal</h2>
+          <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Copyright</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="./public/js/hotels.js" type="module"></script>
+<script src="./public/js/header-carousel-tabs.js" type="module"></script>
+
+</html>

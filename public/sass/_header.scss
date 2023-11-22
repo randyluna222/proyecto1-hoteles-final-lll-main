@@ -1,0 +1,95 @@
+.header {
+  $header-height: 70px;
+  background-color: $black-dissipated;
+  height: $header-height;
+  position: relative;
+  z-index: 3;
+
+  &--flex {
+    display: flex;
+  }
+
+  &__nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 70px;
+  }
+
+  &__button {
+    background: none;
+    border: none;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30px;
+    height: 31px;
+    padding: 0;
+  }
+
+  &__button > div {
+    background-color: $white;
+    height: 2px;
+    width: 100%;
+    border: 5px;
+    transition: all 0.5s;
+    transform-origin: right;
+  }
+
+  &__button--active div:first-child {
+    transform: rotate(-45deg);
+  }
+
+  &__button--active div:nth-child(2) {
+    opacity: 0;
+  }
+
+  &__button--active div:last-child {
+    transform: rotate(45deg);
+  }
+
+  &__links {
+    display: none;
+    align-items: center;
+    background-color: $black-dissipated;
+    flex-direction: column;
+    gap: 20px;
+    height: calc(100vh - $header-height);
+    padding-top: $header-height;
+    position: absolute;
+    top: $header-height;
+    left: 100%;
+    touch-action: none;
+    width: 100%;
+    transition: left 0.5s;
+    z-index: 10;
+  }
+
+  &__links--active {
+    display: flex;
+    left: 0;
+  }
+
+  a {
+    color: $white;
+    font-weight: bold;
+  }
+}
+
+.banner {
+  position: relative;
+  top: -100px;
+  height: 610px;
+  
+  h1 {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    height: 610px;
+    background-color: $black-dissipated;
+  }
+}

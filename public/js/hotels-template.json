@@ -1,0 +1,693 @@
+[
+  {
+    "hotelName": "Hotel Riu Guanacaste",
+    "descritption": "The 5 star resort, Hotel Riu Guanacaste (All Inclusive 24h), <br> is located on Matapalo beach in Guanacaste, Costa Rica, thanks to the all inclusive service you can enjoy the wide variety of flavors of both the buffet restaurant and all the different themed restaurants that the hotel has. If your stay is for work or business then the Hotel Riu Guanacaste will be ideal for you. At the RIU Resort there are five modern and fully equipped conference rooms for you to hold meetings or conferences in a professional and easy way as well as several services that you can request. Being in a privileged environment, the hotel offers for all ages, whether as a family, couple or friends, a variety of entertainment.",
+    "idPlace": "1",
+    "roomsList": [
+      {
+        "roomName": "Family Room (2 Beds)",
+        "price": "170",
+        "characteristics": {
+          "wiFi": ["WiFi", 10],
+          "air-conditioning": ["Air conditioning", 20]
+        },
+        "discount": "20",
+        "roomImage": "public/assets/hotels/rooms/riu-room-1.jpg"
+      },
+      {
+        "roomName": "Suite",
+        "price": "300",
+        "characteristics": {
+          "jacuzzi": ["Jacuzzi", 40],
+          "air-conditioning": ["Air conditioning", 20],
+          "breakfast": ["Breakfast", 30]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/riu-room-2.jpg"
+      },
+      {
+        "roomName": "Superior Double with sea view",
+        "price": "130",
+        "characteristics": {
+          "pool": ["Pool", 35],
+          "air-conditioning": ["Air conditioning", 20]
+        },
+        "discount": "5",
+        "roomImage": "public/assets/hotels/rooms/riu-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/riu-banner.jpg",
+      "public/assets/hotels/riu-box.jpg"
+    ],
+    "id": "1"
+  },
+  {
+    "hotelName": "Hotel La Teca",
+    "descritption": "Cabanas La Teca Villa is about 25 minutes' drive from Liberia Airport, the property is 10 minutes' drive from Canyon de la Vieja Adventure Lodge. The villa is 6 km from the center of Liberia and a few meters you will find restaurants and bars. If you are looking for a quiet and private accommodation, La Teca is the right place. The hotel, with 5 beautiful cabins, made of teak wood, individual cabins, is located near the Colorado River. The cabins are a perfect place to relax, enjoy the peace and quiet and are served in French, English and Spanish.",
+    "idPlace": "1",
+    "roomsList": [
+      {
+        "roomName": "Economic cabin",
+        "price": "90",
+        "characteristics": {
+          "wiFi": ["WiFi", 10]
+        },
+        "discount": "5",
+        "roomImage": "public/assets/hotels/rooms/teca-room-1.jpg"
+      },
+      {
+        "roomName": "Standard cabin",
+        "price": "120",
+        "characteristics": {
+          "service": ["Room service", 25],
+          "air-conditioning": ["Air conditioning", 20],
+          "scenic": ["Scenic view", 30]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/teca-room-2.jpg"
+      },
+      {
+        "roomName": "Family cabin",
+        "price": "140.9",
+        "characteristics": {
+          "restaurant": ["Restaurant", 15],
+          "air-conditioning": ["Air conditioning", 20],
+          "pool": ["Pool", 35]
+        },
+        "discount": "15",
+        "roomImage": "public/assets/hotels/rooms/teca-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/teca-banner.jpg",
+      "public/assets/hotels/teca-box.jpg"
+    ],
+    "id": "2"
+  },
+  {
+    "hotelName": "Selina Hostel Puerto Viejo",
+    "descritption": "Located in the heart of a tropical jewel, Selina Puerto Viejo is a cultural hotspot filled with the best of Costa Rica: infectious reggae, spicy Caribbean cuisine and the melodies of frogs croaking at sunset. Unlike other hotels in the region, our unique accommodations are located right on the beach, allowing you to listen to the waves crash from your bed. Want to go deeper? Enjoy hand-built teepees away from the beach in our jungle area, made with materials sourced from neighboring indigenous communities for an even more authentic and eco-friendly stay. Head to the beach and walk the trail from Playa Cocles to the lookout point for a full view of the beautiful Cocles Bay. Also, you can choose to jump off a waterfall, paddle surf or hike through the Gandoca Manzanillo National Wildlife Refuge or Cahuita National Park.",
+    "idPlace": "2",
+    "roomsList": [
+      {
+        "roomName": "Shared rooms",
+        "price": "60",
+        "characteristics": {
+          "air-conditioning": ["Air conditioning", 20]
+        },
+        "discount": "5",
+        "roomImage": "public/assets/hotels/rooms/selina-room-1.jpg"
+      },
+      {
+        "roomName": "Teepee tent",
+        "price": "90",
+        "characteristics": {
+          "service": ["Room service", 25],
+          "parking": ["Parking", 10],
+          "pets": ["Pets allowed", 15]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/selina-room-2.jpg"
+      },
+      {
+        "roomName": "Standard room",
+        "price": "125",
+        "characteristics": {
+          "wiFi": ["WiFi", 10],
+          "air-conditioning": ["Air conditioning", 20]
+        },
+        "discount": "15",
+        "roomImage": "public/assets/hotels/rooms/selina-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/selina-banner.jpg",
+      "public/assets/hotels/selina-box.jpg"
+    ],
+    "id": "3"
+  },
+  {
+    "hotelName": "Pacuare Lodge",
+    "descritption": "Pacuare Lodge is a luxury, eco-hotel with only 20 suites and situated on the banks of one of the world’s most scenic, white-water wonders, the Pacuare River of Costa Rica. This unparalleled location, with its vibrant nature, offers a scenic backdrop to adventure, romance and wellness. Simple, and yet sophisticated, the indigenous Cabécar-inspired architecture, pristine rainforest, farm-to-table exquisite cuisine, and luxurious, well-appointed accommodations come together to offer an experience like no other.",
+    "idPlace": "2",
+    "roomsList": [
+      {
+        "roomName": "Premium room",
+        "price": "300",
+        "characteristics": {
+          "jacuzzi": ["Jacuzzi", 40],
+          "air-conditioning": ["Air conditioning", 20],
+          "breakfast": ["Breakfast", 30]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/pacuare-room-1.jpg"
+      },
+      {
+        "roomName": "Standard room ",
+        "price": "250",
+        "characteristics": {
+          "restaurant": ["Restaurant", 15],
+          "air-conditioning": ["Air conditioning", 20],
+          "pool": ["Pool", 35]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/pacuare-room-2.jpg"
+      },
+      {
+        "roomName": "Economic room",
+        "price": "200",
+        "characteristics": {
+          "wiFi": ["WiFi", 10],
+          "air-conditioning": ["Air conditioning", 20]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/pacuare-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/pacuare-banner.jpg",
+      "public/assets/hotels/pacuare-box.jpg"
+    ],
+    "id": "4"
+  },
+  {
+    "hotelName": "Barcelo Tambor",
+    "descritption": "The Barceló Tambor hotel is located in Tambor beach, Costa Rica, the hotel stands out for being in a natural environment of unparalleled beauty in front of a paradisiacal beach on the Pacific Ocean coast. It has a total of 402 rooms, including 56 Premium Level rooms and 4 Suites. To adapt to the needs of each guest, the hotel has rooms with a king bed and rooms with 2 double beds, as well as rooms for people with special needs and in addition we offer a spectacular view of the authentic beauty of Costa Rica.",
+    "idPlace": "3",
+    "roomsList": [
+      {
+        "roomName": "Standard room",
+        "price": "200",
+        "characteristics": {
+          "air-conditioning": ["Air conditioning", 20],
+          "breakfast": ["Breakfast", 30]
+        },
+        "discount": "20",
+        "roomImage": "public/assets/hotels/rooms/tambor-room-1.jpg"
+      },
+      {
+        "roomName": "Family room",
+        "price": "110.9",
+        "characteristics": {
+          "air-conditioning": ["Air conditioning", 20],
+          "pool": ["Pool", 35]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/tambor-room-2.jpg"
+      },
+      {
+        "roomName": "Premium room",
+        "price": "230",
+        "characteristics": {
+          "service": ["Room service", 25],
+          "air-conditioning": ["Air conditioning", 20],
+          "scenic": ["Scenic view", 30]
+        },
+        "discount": "25",
+        "roomImage": "public/assets/hotels/rooms/tambor-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/tambor-banner.jpg",
+      "public/assets/hotels/tambor-box.jpg"
+    ],
+    "id": "5"
+  },
+  {
+    "hotelName": "Teva Hotel & Jungle Reserve",
+    "descritption": "Téva, which means nature, is a community space on 20 hectares of pristine forest that offers hiking trails, permaculture food gardens, botanical treasures, a jungle-view swimming pool, a top-notch Moroccan-Latin fusion restaurant featuring fresh, flavorful, healthy cuisine, social spaces for meeting other travelers, a yoga shala in the forest, a wealth of local knowledge, and a reliable high-speed internet connection. There are also plenty of opportunities to see abundant wildlife like scarlet macaws, toucans, and three species of monkeys, right from your window. Today’s traveler values unique experiences, good food, connection with nature, low environmental impact, sustainability, and authentic human community.",
+    "idPlace": "3",
+    "roomsList": [
+      {
+        "roomName": "Ecoroom",
+        "price": "60",
+        "characteristics": {
+          "wiFi": ["WiFi", 10],
+          "parking": ["Parking", 5]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/teva-room-1.jpg"
+      },
+      {
+        "roomName": "Shared rooms",
+        "price": "50",
+        "characteristics": {
+          "wiFi": ["WiFi", 10],
+          "air-conditioning": ["Air conditioning", 15]
+        },
+        "discount": "5",
+        "roomImage": "public/assets/hotels/rooms/teva-room-2.jpg"
+      },
+      {
+        "roomName": "The Suite",
+        "price": "90",
+        "characteristics": {
+          "jacuzzi": ["Jacuzzi", 40],
+          "air-conditioning": ["Air conditioning", 20],
+          "scenic": ["Scenic view", 30]
+        },
+        "discount": "15",
+        "roomImage": "public/assets/hotels/rooms/teva-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/teva-banner.jpg",
+      "public/assets/hotels/teva-box.jpg"
+    ],
+    "id": "6"
+  },
+  {
+    "hotelName": "The Beach Bungalows",
+    "descritption": "The Beach Bungalows provides its guests with a one-of-a-kind opportunity to experience beautiful Tamarindo. With nearby restaurants, clubs, boutiques, yoga studios and grocery stores, and the beach only a few minutes' walk away, we are close to all the fun but just far enough away to be relaxing. We strive to create a genuine (get away) feel for our guests in a unique garden setting with a friendly and attentive staff, our resident cat and  the occasional visiting monkeys. In our continuing efforts to be environmentally friendly, we use a state of the art water treatment system that allows gray water to be used for irrigation, helping to conserve precious resources, and a water purification system that makes the water from all taps drinkable, reducing plastic bottle usage.",
+    "idPlace": "4",
+    "roomsList": [
+      {
+        "roomName": "Premium bungalow",
+        "price": "349.9",
+        "characteristics": {
+          "jacuzzi": ["Jacuzzi", 30],
+          "air-conditioning": ["Air conditioning", 10],
+          "scenic": ["Scenic view", 20]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/bunga-room-1.jpg"
+      },
+      {
+        "roomName": "Standard room",
+        "price": "150",
+        "characteristics": {
+          "restaurant": ["Restaurant", 20],
+          "pool": ["Pool", 30]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/bunga-room-2.jpg"
+      },
+      {
+        "roomName": "Family Room",
+        "price": "90",
+        "characteristics": {
+          "restaurant": ["Restaurant", 15],
+          "air-conditioning": ["Air conditioning", 20],
+          "pool": ["Pool", 35]
+        },
+        "discount": "5",
+        "roomImage": "public/assets/hotels/rooms/bunga-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/bunga-banner.jpg",
+      "public/assets/hotels/bunga-box.jpg"
+    ],
+    "id": "7"
+  },
+  {
+    "hotelName": "Oxygen Jungle Villas",
+    "descritption": "Tucked away in the Uvita rainforest, Oxygen Jungle Villas is an intimate Costa Rica boutique hotel boasting expansive views over the sparkling Pacific Ocean. Soak in the sounds of nature from your private jungle paradise. Immerse yourself in the fresh ocean air on our pristine beaches nearby. Revel in the enchanting sunsets from our palm-fringed infinity pool. Any number of unforgettable adventures and rejuvenating experiences await you at Oxygen Jungle Villas—your secret oasis in Costa Rica.",
+    "idPlace": "4",
+    "roomsList": [
+      {
+        "roomName": " Oceanview villa",
+        "price": "640",
+        "characteristics": {
+          "service": ["Room service", 25],
+          "air-conditioning": ["Air conditioning", 20],
+          "scenic": ["Scenic view", 30]
+        },
+        "discount": "40",
+        "roomImage": "public/assets/hotels/rooms/oxygen-room-1.jpg"
+      },
+      {
+        "roomName": "Jungle view villa",
+        "price": "550",
+        "characteristics": {
+          "air-conditioning": ["Air conditioning", 15],
+          "breakfast": ["Breakfast", 30]
+        },
+        "discount": "15",
+        "roomImage": "public/assets/hotels/rooms/oxygen-room-2.jpg"
+      },
+      {
+        "roomName": "Basic villa",
+        "price": "490.9",
+        "characteristics": {
+          "pool": ["Pool", 35]
+        },
+        "discount": "13",
+        "roomImage": "public/assets/hotels/rooms/oxygen-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/oxygen-banner.jpg",
+      "public/assets/hotels/oxygen-box.jpg"
+    ],
+    "id": "8"
+  },
+  {
+    "hotelName": "Best Wester Jaco Beach",
+    "descritption": "Whispering palms, a beautiful beachfront, lush gardens and laid-back tropical rhythms make the Best Western Jacó Beach All Inclusive Resort an inviting gem for your Costa Rica beach getaway. Whether you’re visiting for a family vacation, romantic couple’s retreat or group holiday, our all-inclusive hotel in Jacó is the ideal blend of oceanfront location and local, independently owned personality. Overlooking the sparkling Pacific Ocean from a prime location on Pastor Díaz Avenue, we are truly in the center of it all and walking distance from downtown Jacó’s attractions, shopping and dining.",
+    "idPlace": "5",
+    "roomsList": [
+      {
+        "roomName": "Standard room",
+        "price": "140",
+        "characteristics": {
+          "jacuzzi": ["Jacuzzi", 40],
+          "air-conditioning": ["Air conditioning", 20],
+          "breakfast": ["Breakfast", 30]
+        },
+        "discount": "30",
+        "roomImage": "public/assets/hotels/rooms/jaco-room-1.jpg"
+      },
+      {
+        "roomName": "Family room",
+        "price": "160",
+        "characteristics": {
+          "restaurant": ["Restaurant", 15],
+          "air-conditioning": ["Air conditioning", 20],
+          "pool": ["Pool", 35]
+        },
+        "discount": "15",
+        "roomImage": "public/assets/hotels/rooms/jaco-room-2.jpg"
+      },
+      {
+        "roomName": "Beach view room",
+        "price": "170",
+        "characteristics": {
+          "restaurant": ["Restaurant", 20],
+          "pool": ["Pool", 30]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/jaco-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/jaco-banner.jpg",
+      "public/assets/hotels/jaco-box.jpg"
+    ],
+    "id": "9"
+  },
+  {
+    "hotelName": "Hotel Balcon Del Mar",
+    "descritption": "Hotel Balcon del Mar consists of a 47 room hotel distributed in 5 different floors and special for different clients and budgets.tours are variable and open to personalized trips in Costa Rica, the hotel is located in the center of the Pacific with many attractive places to visit, let us know what you would like to do. Finally, and very important, the hotel is located in front of the best surf spot in Jaco, come and check it out. Sun, nightlife, people and nature await you here in Jaco Beach, Costa Rica.",
+    "idPlace": "5",
+    "roomsList": [
+      {
+        "roomName": "Standard room",
+        "price": "100",
+        "characteristics": {
+          "restaurant": ["Restaurant", 15],
+          "parking": ["Parking", 10]
+        },
+        "discount": "15",
+        "roomImage": "public/assets/hotels/rooms/balcon-room-1.jpg"
+      },
+      {
+        "roomName": "Premium room",
+        "price": "259",
+        "characteristics": {
+          "jacuzzi": ["Jacuzzi", 40],
+          "service": ["Room service", 25],
+          "terrace": ["Terrace", 25]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/balcon-room-2.jpg"
+      },
+      {
+        "roomName": "Economic room",
+        "price": "50",
+        "characteristics": {
+          "parking": ["Parking", 10]
+        },
+        "discount": "5",
+        "roomImage": "public/assets/hotels/rooms/balcon-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/balcon-banner.jpg",
+      "public/assets/hotels/balcon-box.jpg"
+    ],
+    "id": "10"
+  },
+  {
+    "hotelName": "Whale Tail Hotel",
+    "descritption": "Located in the heart of Uvita, Costa Rica on the famous Whale Tail Bay, we are the best hotel in the region for relaxing and living the best experiences of the Ballena Coast, from learning to surf or dive, to hike to unique and amazing waterfalls or see magical creatures from the sea as humpback whales or dophins, and much more. Boasting unbeatable waves and expert guides, our surf school program is designed for curious beginners and seasoned pros alike. From waterfall treks to extreme water sports, restorative yoga, and meditation, our ever-changing weekly schedule is packed with plenty of ways to experience the best of Costa Rica.",
+    "idPlace": "6",
+    "roomsList": [
+      {
+        "roomName": "Family Room ",
+        "price": "170",
+        "characteristics": {
+          "breakfast": ["Breakfast", 30],
+          "pool": ["Pool", 35],
+          "wiFi": ["WiFi", 10]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/whale-room-1.jpg"
+      },
+      {
+        "roomName": "Mixed bed room",
+        "price": "150",
+        "characteristics": {
+          "pets": ["Pets allowed", 15],
+          "parking": ["Parking", 10]
+        },
+        "discount": "15",
+        "roomImage": "public/assets/hotels/rooms/whale-room-2.jpg"
+      },
+      {
+        "roomName": "Economic room",
+        "price": "100",
+        "characteristics": {
+          "air-conditioning": ["Air conditioning", 20],
+          "wiFi": ["WiFi", 10]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/whale-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/whale-banner.jpg",
+      "public/assets/hotels/whale-box.jpg"
+    ],
+    "id": "11"
+  },
+  {
+    "hotelName": "Hotel Boutique Capitán Suizo",
+    "descritption": "Capitán Suizo is a four-star boutique hotel, located on the beachfront of Playa Tamarindo, one of the most beautiful beaches on the Pacific coast of Costa Rica for swimming and surfing. Since its opening in 1992, Capitán Suizo has been a highly regarded hotel by its guests - in 2009 the hotel was ranked as one of the top ten hotels in Central America and the Caribbean by the readers of Condé Nast Traveler Magazine and number ONE in 2018! From 2015-2017 we received the Traveler's Choice Award recognition. The privileged area outside the village, at the end of the bay and directly on the beach, combined with an informal and cheerful atmosphere in which it is implicit that nature and animals are integrated with love and respect, where the food is delicious, the happy staff offers a very personalized service and the carefully thought-out design reflects a touch of Swiss quality make Capitan Suizo a charismatic oasis.",
+    "idPlace": "6",
+    "roomsList": [
+      {
+        "roomName": "Premium room",
+        "price": "350",
+        "characteristics": {
+          "garden": ["Garden", 15],
+          "jacuzzi": ["Jacuzzi", 40],
+          "service": ["Room service", 25]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/capi-room-1.jpg"
+      },
+      {
+        "roomName": "Standard room ",
+        "price": "230",
+        "characteristics": {
+          "restaurant": ["Restaurant", 15],
+          "air-conditioning": ["Air conditioning", 20]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/capi-room-2.jpg"
+      },
+      {
+        "roomName": "Family room ",
+        "price": "180",
+        "characteristics": {
+          "restaurant": ["Restaurant", 15],
+          "pool": ["Pool", 35]
+        },
+        "discount": "15",
+        "roomImage": "public/assets/hotels/rooms/capi-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/capi-banner.jpg",
+      "public/assets/hotels/capi-box.jpg"
+    ],
+    "id": "12"
+  },
+  {
+    "hotelName": "Conchal Hotel & Papaya Restaurant",
+    "descritption": "Conchal Hotel is a small family-run boutique hotel, located in the rustic village of Brasilito in the province of Guanacaste, on the (Gold Coast) of Costa Rica's northern Pacific. The hotel is located just 250 meters walk from Playa Brasilito and a little further from Playa Conchal or Conchal Beach, widely considered one of the best beaches in Costa Rica. His tropical dry forest region is known for its warm sunny days, beautiful pristine beaches and many exciting activities such as sailing, fishing, kayaking, horseback riding, hiking, zip lining, bird watching, surfing and scuba diving. We are also within reach of National Parks such as Las Baulas, Palo Verde, Rincon de la Vieja, Santa Rosa and Tenorio. Tamarindo, Flamingo and Playa Grande are less than 15 minutes away by car.",
+    "idPlace": "8",
+    "roomsList": [
+      {
+        "roomName": "Premium room",
+        "price": "175",
+        "characteristics": {
+          "terrace": ["Terrace", 25],
+          "jacuzzi": ["Jacuzzi", 40],
+          "breakfast": ["Breakfast", 30]
+
+        },
+        "discount": "15",
+        "roomImage": "public/assets/hotels/rooms/conchal-room-1.jpg"
+      },
+      {
+        "roomName": "Standard room ",
+        "price": "100",
+        "characteristics": {
+          "parking": ["Parking", 10],
+          "garden": ["Garden", 15]
+        },
+        "discount": "5",
+        "roomImage": "public/assets/hotels/rooms/conchal-room-2.jpg"
+      },
+      {
+        "roomName": "Family room ",
+        "price": "85",
+        "characteristics": {
+          "scenic": ["Scenic view", 30],
+          "restaurant": ["Restaurant", 15],
+          "pool": ["Pool", 35]
+        },
+        "discount": "5",
+        "roomImage": "public/assets/hotels/rooms/conchal-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/conchal-banner.jpg",
+      "public/assets/hotels/conchal-box.jpg"
+    ],
+    "id": "13"
+  },
+  {
+    "hotelName": "Reserva Conchal Beach Resort, Golf & Spa",
+    "descritption": "Living in Reserva Conchal means waking up every day in touch with the inspiring energy of nature. Each of our condominiums and spaces are designed to live unforgettable moments in harmony with the environment.Reserva Conchal consists of 2,300 acres (930 hectares) of rolling land, a wildlife reserve full of natural wonders, a top-tier golf course and pristine white sand beaches. Located in one of the world’s five blue zones, our people and guests have world-class comfort topped by the beauties that nature has to offer, we are a community that is committed to a sustainable future.",
+    "idPlace": "7",
+    "roomsList": [
+      {
+        "roomName": "Premium room",
+        "price": "300",
+        "characteristics": {
+          "scenic": ["Scenic view", 30],
+          "restaurant": ["Restaurant", 15],
+          "pets": ["Pets allowed", 15]
+        },
+        "discount": "20",
+        "roomImage": "public/assets/hotels/rooms/resort-room-1.jpg"
+      },
+      {
+        "roomName": "Standard room ",
+        "price": "260",
+        "characteristics": {
+          "pool": ["Pool", 35],
+          "wiFi": ["WiFi", 10],
+          "air-conditioning": ["Air conditioning", 20]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/resort-room-2.jpg"
+      },
+      {
+        "roomName": "Family room ",
+        "price": "200",
+        "characteristics": {
+          "pool": ["Pool", 35],
+          "garden": ["Garden", 15]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/resort-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/resort-banner.jpg",
+      "public/assets/hotels/resort-box.jpg"
+    ],
+    "id": "14"
+  },
+  {
+    "hotelName": "Hotel El Encanto",
+    "descritption": "Welcome to our hotel, where you will find a cozy and comfortable space to enjoy your stay. With personalized service and attention to detail, we strive to make your visit a unique and unforgettable experience. Whether you are here for business or pleasure, our team will be on hand to make sure your stay is as pleasant as possible. Our rooms are designed with your comfort in mind and equipped with the best amenities to ensure you have everything you need during your stay. In addition, our hotel has a wide range of facilities and services to meet your needs. Enjoy a delicious meal in our restaurant, relax in our outdoor swimming pool or keep fit in our fully equipped fitness center, our hotel is the ideal place to stay while enjoying all the amenities we have to offer. We look forward to welcoming you suddenly!",
+    "idPlace": "8",
+    "roomsList": [
+      {
+        "roomName": "Premium room",
+        "price": "270",
+        "characteristics": {
+          "terrace": ["Terrace", 25],
+          "parking": ["Parking", 10],
+          "air-conditioning": ["Air conditioning", 20]
+        },
+        "discount": "20",
+        "roomImage": "public/assets/hotels/rooms/encanto-room-1.jpg"
+      },
+      {
+        "roomName": "Double room",
+        "price": "199.9",
+        "characteristics": {
+          "air-conditioning": ["Air conditioning", 20],
+          "wiFi": ["WiFi", 10]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/encanto-room-2.jpg"
+      },
+      {
+        "roomName": "Economic room",
+        "price": "100",
+        "characteristics": {
+          "restaurant": ["Restaurant", 15],
+          "pool": ["Pool", 35]
+        },
+        "discount": "5",
+        "roomImage": "public/assets/hotels/rooms/encanto-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/encanto-banner.jpg",
+      "public/assets/hotels/encanto-box.jpg"
+    ],
+    "id": "15"
+  },
+  {
+    "hotelName": "3 Bamboo Ecolodge",
+    "descritption": "Cahuita is a typical and authentic village in Talamanca, on the caribbean coast of Costa Rica. Well known for his National Park, you can discover the afro-caribbean and indigenous culture too.With family, friends or as a couple, we want you to feel like home. As we are not a major resort , we are involved in a sustainable and authentical tourism. Our purpose is to offer a eco-friendly and comfortable place that allows you to discover the treasures of this magical area.",
+    "idPlace": "8",
+    "roomsList": [
+      {
+        "roomName": "Standard room ",
+        "price": "130",
+        "characteristics": {
+          "breakfast": ["Breakfast", 30],
+          "pets": ["Pets allowed", 15],
+          "pool": ["Pool", 35]
+        },
+        "discount": "20",
+        "roomImage": "public/assets/hotels/rooms/bamboo-room-1.jpg"
+      },
+      {
+        "roomName": "Economic room",
+        "price": "60",
+        "characteristics": {
+          "parking": ["Parking", 10],
+          "air-conditioning": ["Air conditioning", 20]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/bamboo-room-2.jpg"
+      },
+      {
+        "roomName": "Double room",
+        "price": "70",
+        "characteristics": {
+          "pool": ["Pool", 35],
+          "wiFi": ["WiFi", 10]
+        },
+        "discount": "10",
+        "roomImage": "public/assets/hotels/rooms/bamboo-room-3.jpg"
+      }
+    ],
+    "image": [
+      "public/assets/hotels/bamboo-banner.jpg",
+      "public/assets/hotels/bamboo-box.jpg"
+    ],
+    "id": "16"
+  }
+]

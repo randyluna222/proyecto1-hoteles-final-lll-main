@@ -1,0 +1,338 @@
+/*Estilos de Buttons*/
+
+.buttons {
+  display: flex;
+
+  p {
+    padding: 20px 50px 16px 20px;
+    margin-right: 20px;
+  }
+}
+
+.button,
+.button2 {
+  width: 9%;
+  padding: 10px 10px;
+  margin: 0px 10px 0px 0px;
+  background-color: rgb(203, 203, 203);
+  color: black;
+  border-radius: 17px;
+}
+
+.button2 {
+  background-color: rgb(214, 214, 214);
+  color: rgb(175, 175, 175);
+  border-color: rgb(232, 230, 230);
+}
+
+.color1:hover {
+  background-color: rgb(140, 139, 139);
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*      Estilos del Nav    */
+
+
+.parrafo p {
+  margin: 60px 0px;
+  padding: 0px 40px;
+}
+
+
+.menuu {
+  display: flex;
+}
+
+.original,
+.menu1,
+.menu2 {
+  margin: 60px 0px;
+  padding: 0px 40px;
+
+  .original,
+  .menu1,
+  .menu2,
+  a {
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    padding: 0px 40px;
+  }
+}
+
+.original a:hover {
+  text-decoration: underline;
+  color: rgb(180, 180, 180);
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*Estilos Textarea*/
+
+.enviar {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 34px;
+  padding: 10px 15px;
+  margin-top: 30px;
+
+  &:hover {
+    background-color: #626262;
+    border-color: #626262;
+  }
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*Estilos Sign Up*/
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.margin-botton {
+  margin-bottom: 50px;
+}
+
+.formulario {
+  & div {
+    max-width: 20%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  &__label {
+    display: flex;
+    color: white;
+    transform: translateY(10px);
+    justify-content: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    padding: 15px 0px;
+    margin-bottom: 15px;
+  }
+
+  &__input {
+    background-color: rgba(235, 235, 235, 0);
+    border: none;
+    color: white;
+    outline: none;
+    border-bottom: 1px solid white;
+
+    :focus+.formulario_label {
+      transform-origin: left top;
+      transform: translateY(-12px) scale(.7);
+    }
+  }
+
+  &_img {
+    height: 75px;
+    margin-left: 201%;
+  }
+
+  &-textarea {
+    height: auto;
+    max-width: 100%;
+    resize: none;
+    background-color: rgba(235, 235, 235, 0);
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+
+  ::placeholder {
+    text-align: center;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+  }
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*Estilos Sign in*/
+
+.parrafo1 {
+  color: white;
+
+  & strong {
+    color: white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*      Modal sign in    */
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 325px;
+  max-width: 100%;
+  padding: 20px 30px;
+  border-radius: 17px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+  &>h2 {
+    color: white;
+    font-size: 28px;
+  }
+
+  &-container {
+    display: flex;
+    /*background-color:  rgba(0, 0, 0, 0.6);*/
+    background-image: url('../design-system/img/form_1.png');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 3;
+  }
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.scroll-body {
+  overflow: hidden;
+}
+
+.formulario_img {
+  height: 75px;
+  width: 100px;
+  margin-left: 169%;
+}
+
+#close {
+  text-align: auto;
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.enviar {
+  background-color: rgba(255, 255, 255, 0.747);
+  color: black;
+  border-color: black;
+  font-weight: bolder;
+
+  &:hover {
+    color: white;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .modal {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 500px;
+    padding: 30px 50px;
+
+    &>h2 {
+      font-size: 36px;
+    }
+  }
+
+  .formulario_img {
+    height: 80px;
+    width: 100px;
+    margin-left: 206%;
+  }
+
+  .enviar {
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    &:hover {
+      background-color: #626262;
+      border-color: #626262;
+    }
+  }
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*form contact*/
+
+.formulario2 {
+  &>div>h2 {
+    font-weight: 800;
+    color: white;
+    font-size: 18px;
+  }
+
+  &__label {
+    display: flex;
+    color: white;
+    transform: translateY(15px);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    background-color: rgba(235, 235, 235, 0);
+    border: none;
+    width: 97%;
+    color: white;
+    outline: none;
+    border-bottom: 3px solid white;
+    margin-bottom: 8px;
+  }
+
+
+  &-textarea {
+    height: auto;
+    max-width: 100%;
+    resize: none;
+    background-color: rgba(235, 235, 235, 0);
+    border: none;
+    color: white;
+    width: 97%;
+    margin-top: 5px;
+    border-bottom: 3px solid white;
+  }
+
+  ::placeholder {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+  }
+}
+
+.modal2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 200px;
+  padding: 2.2% 50px;
+  border-radius: 17px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .formulario2 {
+    &>div>h2 {
+      font-size: 32px;
+    }
+  }
+  .modal2 {
+    width: 400px;
+    padding: 2.2% 90px;
+  }
+
+
+}
